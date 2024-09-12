@@ -8,6 +8,7 @@ const WhereToBuy = () => {
         <div className="space-y-8">
           <motion.h1
             initial={{ opacity: 0, y: 100 }}
+            viewport={{ once: true, amount: 0.5 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
             className="text-3xl font-bold text-darkGray font-serif"
@@ -16,6 +17,7 @@ const WhereToBuy = () => {
           </motion.h1>
           <motion.div
             initial={{ opacity: 0, y: 100 }}
+            viewport={{ once: true, amount: 0.5 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
             className="flex items-center gap-4"
@@ -33,6 +35,7 @@ const WhereToBuy = () => {
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 100 }}
+            viewport={{ once: true, amount: 0.5 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
             className="flex items-center gap-4"
@@ -45,6 +48,7 @@ const WhereToBuy = () => {
           </motion.div>
           <motion.button
             initial={{ opacity: 0, y: 100 }}
+            viewport={{ once: true, amount: 0.5 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7 }}
             className="primary-btn w-full"
@@ -58,6 +62,7 @@ const WhereToBuy = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2 }}
+          viewport={{ once: true, amount: 0.5 }}
           src={worldMap}
           alt="worldMap"
           className="w-full sm:w-[500px] mx-auto"
